@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-# Create an BeerBase Pydantic schema to have common attributes whilst creating or reading data
+# Create a BeerBase Pydantic schema to have common attributes whilst creating or reading data
 class BeerBase(BaseModel):
     name: str
     tagline: str
