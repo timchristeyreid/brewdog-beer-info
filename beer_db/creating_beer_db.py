@@ -1,7 +1,7 @@
 import json
 import sqlite3
 
-conn = sqlite3.connect('beers.sqlite')
+conn = sqlite3.connect('beers.db')
 cur = conn.cursor()
 
 cur.executescript('''
